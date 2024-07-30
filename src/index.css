@@ -1,0 +1,56 @@
+.wrapper {
+  background-color: rgb(237, 229, 229);
+  padding: 10px;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(165, 164, 164);
+}
+.icon-wrapper p {
+
+}
+
+h4 {
+  margin: 0;
+}
+
+.subtext {
+  margin: 0;
+  font-size: 0.9em;
+  color: gray;
+}
+
+#icon {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+.right {
+  transform: rotate(270deg);
+}
+
+@media (max-width: 200px) {
+  .icon-wrapper {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  h4 {
+    font-size: 12px;
+    width: 100%; 
+  }
+  p{
+    font-size: 10px;
+  }
+
+  #icon {
+    font-size: 24px; /* Reduce icon size for small screens */
+    margin-top: 5px; /* Add some space above the icon */
+  }
+}
