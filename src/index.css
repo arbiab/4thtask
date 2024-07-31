@@ -1,9 +1,10 @@
 .wrapper {
-  background-color: rgb(235, 234, 234);
+  background-color: white;
   border-radius: 10px;
   padding: 10px;
   max-width: 80rem;
   margin: auto;
+  border: 1px solid rgba(0, 0, 0, 0.185);
 }
 
 .icon-wrapper {
